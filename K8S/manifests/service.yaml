@@ -5,10 +5,10 @@ metadata:
   labels:
     app: go-web-app
 spec:
+  type: NodePort  # Change the type to NodePort to expose the service externally
   ports:
     - port: 80
       targetPort: 8080
       protocol: TCP
   selector:
-   app: go-web-app
-   type: ClusterIP
+    app: go-web-app  # Correct placement of the selector
