@@ -1,6 +1,4 @@
-name:   
- on: name
-    push:   
-
-
-
+on:
+  push:
+    branches:
+      - main
