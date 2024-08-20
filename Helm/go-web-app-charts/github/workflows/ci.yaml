@@ -1,2 +1,6 @@
-name: CI
+name:   
+ on: name
+    push:   
+
+
 
